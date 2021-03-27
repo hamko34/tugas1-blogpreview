@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/cougarpic"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/TV1"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cougar" />
+    <TextView
+        android:id="@+id/TV1"
+        android:paddingVertical="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="14dp"
+        android:text="Cougar"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_below="@id/cougarpic"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="20dp"
+        android:layout_centerHorizontal="true">
+        <TextView
+
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The cougar (Puma concolor) is a large cat of the subfamily Felinae. Native to the Americas, its range spans from the Canadian Yukon to the southern Andes in South America and is the most widespread of any large wild terrestrial mammal in the Western Hemisphere. It is an adaptable, generalist species, occurring in most American habitat types. Due to its wide range, it has many names including catamount, mountain lion, painter, panther and puma (Wikipedia)"/>
+    </LinearLayout>
+</RelativeLayout>
